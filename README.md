@@ -159,7 +159,6 @@ and our proposed one on difficult queries are compared.
 ## Difference between the cosine similarity of queries and their relevant judged documents over Difficult Queries
 To assess whether our query transformation has been able to reduce the distance (increase similarity) between the query and its relevant document, we plot a help-hurt diagram based on the cosine similarity between a query and its relevant document before and after our learnt transformation. The help-hurt diagram is depicted in the Figure below. The diagram shows the difference between the cosine similarity obtained from the embeddings of the transformed query and that of the relevant document and
 the cosine similarity of the original query and the relevant document. Positive values show that the transformed queries were closer to the relevant document whereas negative values show the opposite. As seen in the figure, in all rankers, the transformed query is much closer to the relevant document than the original query. This shows that our proposed approach for transforming queries is effectively moving query representations in the right direction.
-
 <p align="center">
-  <img src="https://github.com/Narabzad/query-transform/blob/master/embeddings_simlarity.png">
+  <img src="https://github.com/aminbigdeli/query_transformation/blob/main/embeddings_simlarity.png">
 </p>
